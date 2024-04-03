@@ -1,0 +1,27 @@
+//-----------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA6
+// README
+// README for Programming Assignment 6
+//-----------------------------------------------------------------------------
+
+The purpose of this assignment is to re-create the Lex.c program from PA1.
+However, the ADT used by Lex will be a Dictionary instead of a List. The
+Dictionary ADT will be based on a Binary Search Tree. 
+
+This assignment includes the following files:
+    README
+    Makefile
+    Dictionary.h
+    Dictionary.c
+    DictionaryTest.c
+    Lex.c
+
+Build:
+    $ make
+
+Run:
+    $ ./Lex <input file> <output file>
+
+Clean:
+    $ make clean

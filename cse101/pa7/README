@@ -1,0 +1,28 @@
+//-----------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA7
+// README
+// README for Programming Assignment 7
+//-----------------------------------------------------------------------------
+
+The purpose of this assignment is to re-creaste the Dictionary ADT from PA6,
+now as a Red-Black tree. The top level client will be implemented in Order.c 
+which will print the keys from the dictionary in pre-order, in-order, and
+post-order tree traversals.
+
+This assignment includes the following files:
+    README
+    Makefile
+    Dictionary.h
+    Dictionary.c
+    DictionaryTest.c
+    Order.c
+
+Build:
+    $ make
+
+Run:
+    $ ./Order <input file> <output file>
+
+Clean:
+    $ make clean

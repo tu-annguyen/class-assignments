@@ -1,0 +1,1 @@
+I, Tu-An Nguyen, have read and understood the Spring CSE12 syllabus and Personal Responsibility Document. tunhnguy 4 April 2020

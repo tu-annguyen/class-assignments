@@ -1,0 +1,33 @@
+// ---------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA3
+// README
+// README for Programming Assignment 3 
+// ---------------------------------------------------------------------------
+
+The purpose of this assignment is to implement the Depth First Search (DFS)
+algorithm in C. The Graph module will be used to find the strongly connected
+components of a digraph. This project will utilize the List ADT from pa1 and
+Graph ADT from pa2.
+
+The time variable is passed through a parameter in visit() for the DFS() 
+function.
+
+This assignment includes the following files:
+    README
+    Makefile
+    List.h
+    List.c
+    Graph.h
+    Graph.c
+    GraphTest.c
+    FindComponents.c
+
+Build:
+    $ make FindComponents
+
+Run:
+    $ ./FindComponents <input file> <output file>
+
+Clean:
+    $ make clean

@@ -1,0 +1,30 @@
+//-----------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA5
+// README
+// README for Programming Assignment 5
+//-----------------------------------------------------------------------------
+
+The purpose of this assignment is to create a BigInteger ADT in C++ that is
+capable of performing arithmetic operations on arbitrarily large signed
+integers. The List ADT is taken from PA4 and altered slightly.
+
+This assignment includes the following files:
+    README
+    Makefile
+    List.h
+    List.cpp
+    ListTest.cpp
+    BigInteger.cpp
+    BigInteger.h
+    BigIntegerTest.cpp
+    Arithmetic.cpp
+
+Build:
+    $ make
+
+Run:
+    $ ./Arithmetic <input file> <output file>
+
+Clean:
+    $ make clean

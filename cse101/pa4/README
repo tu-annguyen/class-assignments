@@ -1,0 +1,31 @@
+//-----------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA4
+// README
+// README for Programming Assignment 4
+//-----------------------------------------------------------------------------
+
+The purpose of this assignment is to create a new and somewhat different List
+ADT from the ones in previous assignments in C++. This List will be used to 
+perform shuffling operations, and determine how many shuffles are necessary to 
+bring a List back into its original order.
+
+Regarding the shuffle() prototype specified in pa4.pdf, I renamed the List D
+parameter to A for my own convenience.
+
+This assignment includes the following files:
+    README
+    Makefile
+    List.h
+    List.cpp
+    ListTest.cpp
+    Shuffle.cpp
+
+Build:
+    $ make
+
+Run:
+    $ ./Shuffle <deck-size>
+
+Clean:
+    $ make clean

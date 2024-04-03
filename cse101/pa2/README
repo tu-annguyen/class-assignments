@@ -1,0 +1,18 @@
+// ---------------------------------------------------------------------------
+// Tu-An Nguyen, tunhnguy
+// 2021 Spring CSE101 PA2
+// README
+// README for Programming Assignment 2 
+// ---------------------------------------------------------------------------
+
+The purpose of this assignment is to implement a Graph ADT and associated 
+algorithms in C. This project will utilize the List ADT from pa1.
+
+Build:
+    $ make FindPath 
+
+Run:
+    $ ./FindPath <input file> <output file>
+
+Clean:
+    $ make clean
